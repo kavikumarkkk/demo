@@ -74,7 +74,7 @@ public class App {
         return hexString.toString();
     }
 
-    private static void  (Scanner scanner, Connection con) throws SQLException, NoSuchAlgorithmException {
+    private static void signup(Scanner scanner, Connection con) throws SQLException, NoSuchAlgorithmException {
         System.out.print("Enter a new username: ");
         String username = scanner.next();
 
