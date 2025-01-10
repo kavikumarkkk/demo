@@ -13,6 +13,7 @@ public class stttt {
 			for(int j=0;j<=s[i].length()-s1.length();j++) {
 				if(s1.equalsIgnoreCase(s[i].substring(j,j+s1.length()))) {
 					c++;
+					
 				}
 			}
 			
