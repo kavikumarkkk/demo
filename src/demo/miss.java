@@ -2,7 +2,7 @@ package demo;
 
 public class miss {
     public static void main(String[] args) {
-        String input = "the the user is is used";
+        String input = "the the used is is used";
         String[] w = input.split(" ");
         StringBuffer r = new StringBuffer();
         
